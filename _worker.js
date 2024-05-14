@@ -6,13 +6,13 @@ import { connect } from 'cloudflare:sockets';
 let userID = '4cd79936-58bf-45a7-bf14-be5686577c1c';
 
 // 生成配置文件的 CF 优选 IP
-const bestCFIP = "www.ttconnect.gov.tt"
+const bestCFIP = "bmobileplus.com"
 
 // 用于 CF 网站的代理 IP
 const proxyIPs = ["129.146.46.164"]; // const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
-let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
+let dohURL = 'https://cloudflare-dns.com/dns-query'
 
 // v2board api environment variables
 let nodeId = ''; // 1
